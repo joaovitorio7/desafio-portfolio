@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+     margin: 0;
+ }
+
+ nav {
+    width: 100%;
+    position: fixed;
+    background-color: indianred;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+nav ul li{
+    display: inline-block;
+    justify-content: flex-end;
+    font-family:'Trebuchet MS';
+    text-transform: uppercase;
+    font-size: 23px;    
+}
+
+nav li:hover {
+    background-color:rgba(4, 47, 104, 0.753);
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 5px;
+    display: inline-block;
+    margin: 15px 10px;
+    align-items: center;
+    color: white;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 2rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sobre {
+    display: inline-flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.7);
+}
+
+section h1 {
+    font-size: 4rem;
+    color:antiquewhite;
+    font-weight: bold;
+}
+
+section p {
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(250, 201, 201);
+}
+
+#projetos {
+    background-color: rgb(181, 180, 255);
+}
+
+.projetos p {
+    font-size: 25px;
+    padding: 50px;
+}
+
+section h2 {
+    font-size: 35px;
+    font-family:'Trebuchet MS';
+    text-align: center;  
+    color:rgb(56, 27, 27);
+    font-weight: bold;
+    transition: all 0.50s ease-in;
+    padding: 20px;
+    margin-top: 50px;
+    border-bottom: 0.1rem solid;
+}
+
+.projetos div {
+    margin: 0 auto;
+}
+
+.projetosmain {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 60px 0;
+    
+}
+
+.projetosmain li {
+    background-color: #2a73a5;
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 40px;
+    border-bottom: 80px;
+    border-bottom-style: solid;
+    box-shadow: 1px 2px 3px rgb(14, 11, 11);
+    
+}
+
+.imagemmain {
+    width: 400px;
+    padding: 30px;
+}
+
+.projetosmain p a {
+    font-size: 22px;
+    color: rgb(1, 8, 15);
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+.contato {
+    background-color: rgba(0,0,0,0.7);
+    display: inline-flex;
+
+}
+section h3 {
+    font-size: 45px;
+    padding-top: 50px;
+    font-family:'Trebuchet MS';
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.formulario {
+    
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input, form textarea {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 500px;
+}
+footer{
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 15px;
+}
+
+.copyright{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0
+    inherit;
+    display: block;
+    justify-content: center;
+}
