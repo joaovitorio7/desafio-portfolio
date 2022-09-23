@@ -81,10 +81,6 @@ section h2 {
     border-bottom: 0.1rem solid;
 }
 
-.projetos div {
-    margin: 0 auto;
-}
-
 .projetosmain {
     width: 100%;
     margin: 0 auto;
@@ -130,10 +126,6 @@ section h3 {
     font-family:'Trebuchet MS';
     color: antiquewhite;
     font-weight: bold;
-}
-
-.formulario {
-    
 }
 
 form {
