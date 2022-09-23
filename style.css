@@ -112,9 +112,12 @@ section h2 {
     font-weight: bold;
 
     text-decoration: none;
-
 }
 
+.code:hover {
+        transition-timing-function: ease;
+        transition-property: 2s;
+}
 .contato {
     background-color: rgba(0,0,0,0.7);
     display: inline-flex;
